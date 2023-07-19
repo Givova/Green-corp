@@ -10,6 +10,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
 }
 
 .header__logo{
@@ -157,4 +161,34 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+  }
+
+  .about__sun-image{
+    animation: rotation 5s /*ease-in-out*/ infinite;
+    position: absolute;
+    right: 570px;
+    top: 200px;
+  }
+
+  /* .name{
+    animation-name: rotation;
+  }
+  
+  .duration{
+    animation-duration: 1s;
+  }
+
+  .iteration-count{
+    animation-iteration-count: 2;
+  } */
+
+
+  @keyframes rotation {
+    0% {
+      transform:rotate(0deg);
+    }
+    100% {
+      transform:rotate(360deg);
+    }
+
   }
