@@ -2,8 +2,12 @@
 <html lang="ru">
 <head>
   <title>Солнечные батареи GreenCorp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
 </head>
 <body>
   <header>
@@ -12,17 +16,117 @@
       <a href="#contacts">Контакты</a>
       <button>Заказать</button>
     </div>
+
   </header>
 
   <section class="about">
     <div class="about__info">
-      <h1>Солнечные панели GreenRobotic</h1>
-      <p>Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
-      <button>Узнать подробнее</button>
+      <h1 class="animate__animated animate__slideInLeft">Солнечные панели GreenRobotic</h1>
+      <p class="animate__animated animate__slideInLeft">Производите дешёвую экологически чистую электроэнергию из солнечного света</p>
+      <button class="animate__animated animate__slideInLeft">Узнать подробнее
+        <!-- <i class="fa-solid fa-caret-right"></i> -->
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
     </div>
-    <img class="about__sun-image name duration iteration-count" src="img/sun.png">
-    <img class="about__image" src="img/solar-panel.png">
+    <div class="animate__animated animate__slideInRight">
+    <img class="about__sun-image name duration iteration-count " src="img/sun.png">
+    <img class="about__image " src="img/solar-panel.png">
+  </div>
   </section>
+
+
+
+<section class = "features">
+
+  <div class="cards">
+    <div class="card">
+      <div class="card__logo" id="card_1"> 
+        <i class="fa-solid fa-solar-panel"></i>
+      </div>
+      <h3>Уменьшите счета за электричество.</h3>
+      <p>Используйте чистую солнечную энергию для питания своего дома: уменьшите зависимость от электросети и счета за электричество.</p>
+    </div> 
+
+    <div class="card">
+        <div class="card__logo" id="card_2">
+        <!-- <i class="fa-solid fa-clock"></i> -->
+        24/7
+        </div>
+        <h3>Мониторинг электроэнергии.</h3>
+        <p>Управляйте своей системой солнечных панелей из любой точки мира с помощью специального мобильного приложения.</p>
+    </div> 
+      
+    <div class="card">
+        <div class="card__logo" id="card_3">
+        <i class="fa-solid fa-chart-line"></i>
+        </div>
+        <h3>Максимальная эффективность.</h3>
+        <p>Солнечные панели GreenRobotic обеспечивают максимальное производство энергии круглый год, даже на крышах со сложными углами.</p>
+    </div> 
+  </div>
+
+  <div class="features__border"></div>
+
+
+
+  <div class="features__feedback">
+    <div class="features__feedback-left">
+       <h2>Нам доверяют <br /> 5000+ счастливых клиентов</h2>
+       <p>Мы помогли тысячам людей перейти на зеленую энергию.</p>
+       <p>После заказа мы позаботимся обо всем: доставка панелей, проект, установка, помощь в использовании.</p>
+
+    </div>
+
+
+    <div class="features__feedback-right">
+      
+      <div class="features__box  features__savings-box" id="box__1">
+        <h3>30 млн ₽</h3>
+        <p>Помогаем экономить нашим клиентам ежемесячно</p>
+
+      </div>
+
+      <div class="features__box features__rate-box" id="box__2">
+        <h3>4.7</h3>
+        <p class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <!-- <i class="fa-solid fa-star"></i> -->
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </p>
+        <p>Средняя оценка наших клиентов</p>
+
+      </div>
+      
+
+    </div>
+  </div>
+</section>
+
+
+<section class="promo">
+
+  <div class="promo__image">
+
+  </div>
+
+  <div class="promo__right">
+    <div class="card__4">
+      <h2>Зарядите свой дом.</h2>
+      <p>Солнечные панели сертифицированы мировыми экспертами: система безопасна и надежна.</p>
+      <p>Следите за накоплением энергии вашего дома в режиме реального времени и настраивайте процент расхода и накопления энергии.</p>
+      <button class="butt">Заказать
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+
+
+</section>
+
+
 
   <section class="form">
     <div class="form__container ">
