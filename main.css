@@ -68,16 +68,24 @@ button {
     
   }
 
+  .orb-canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    
+  }
+  
   .about{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 115px; 
-    padding-bottom: 115px;
+    padding-bottom: 115px;  
     background: url('img/back.png') no-repeat;    /*   Здесь цвет фона */
     background-position: center;
     background-size: cover;
-    
+    position: relative;
   }
   .about h1 {
     font-size: 70px;
@@ -352,7 +360,8 @@ button {
   margin-top: 20px;
   padding: 15px 30px;
   font-size: 18px;
-
+  display: flex;
+  align-items: center; 
 }
 
 .butt p{
